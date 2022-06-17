@@ -226,4 +226,25 @@ footer span {
 
 @media all and (min-width: 1200px) {
 
+header  {
+	flex-flow: row nowrap;
+}
+
+header h1 {
+	width: 60%;
+    padding: 0;
+    border-bottom: none;
+    text-align: left;
+}
+
+nav {
+	width: 40%;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
 }
