@@ -63,9 +63,7 @@ header h1 {
 	border-bottom: 5px solid #77a466;
 	margin: 0;
 	padding: 38px 0;
-	display: flex; 
-	justify-content: center;
-	align-items: center; 
+	text-align: center;
 
 }
 
@@ -150,8 +148,8 @@ header nav ul li a{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
 }
 
 .section-two h3,
@@ -198,6 +196,31 @@ footer span {
 }
 
 @media all and (min-width: 768px) {
+
+.bottom-section {
+
+	flex-basis: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section-one {
+
+	flex-basis: 33%;
+}
+
+.section-two {
+
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+	flex-basis: 33%;
+
+}
+
+.section-three {
+
+	flex-basis: 33%;
+}
 
 }
 
